@@ -1,0 +1,43 @@
+.App {
+    max-width: 130rem;
+    width: 100%;
+    margin: 0 auto;
+
+    position: relative;
+
+}
+.App__content {
+    width: 70%;
+    margin: 1.5rem auto;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow:  2rem 2rem 4rem #d1d1d1,
+                -2rem -2rem 4rem #ffffff;
+
+    padding: 2rem 3rem;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.App__content > h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.App__content > hr {
+    margin-bottom: 2rem;
+    border-color: #89c2d9;
+}
+
+@media screen and (max-width: 768px) {
+    .App {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .App__content {
+        width: 100%;
+        padding: 2rem 1.5rem;
+    }
+}
